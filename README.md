@@ -79,23 +79,31 @@
 
 # 三. 第三方服务提供商
 为方便您的访问并丰富您的体验，可能会有第三方提供的产品或服务。您可以选择是否访问这类内容或链接，或是否使用该第三方的产品或服务。但我们对于第三方提供的产品或服务没有控制权。我们无法控制第三方掌握的您的任何个人信息。您在使用第三方产品或服务过程中的信息保护问题，不适用于本政策的管理。本政策也不适用于您自行选择提供给第三方的任何信息。请您查看该第三方的隐私保护政策。
+
 嵌入SDK
+
 为了能够更高效地完成本应用的产品研发，为用户提供更为多元化的服务，我们在本应用 App 中采用了第三方提供的软件开发工具包。这种工具包通常称为 SDK（Software Development Kit），是指用于为特定的软件包、软件框架、硬件平台、操作系统等创建应用软件的开发工具的集合。我们使用的 SDK 包括以下类型：
+
 – 友盟SDK（com.umeng）
+
 使用目的：提供数据统计、数据分析服务
 代码包名：com.umeng、com.uc、com.efs
 收集个人信息类型：设备信息（IMEI/MAC/Android ID/IDFA/OpenUDID/GUID/IP地址/SIM 卡 IMSI 信息等）
 公司名称：北京锐讯灵通科技有限公司
 隐私政策：[https://www.umeng.com/page/policy](https://www.umeng.com/page/policy)
 
+
 – 腾讯Bugly（bugly.qq.com）
+
 使用目的：提供数据分析，应用升级服务
 代码包名：com.tencent.bugly
 收集个人信息类型：设备信息（IMEI/MAC/Android ID/IDFA/OpenUDID/GUID/IP地址/SIM 卡 IMSI 信息等）
 公司名称：深圳市腾讯计算机系统有限公司
 隐私政策：[https://static.bugly.qq.com/bugly-sdk-privacy-statement.pdf](https://static.bugly.qq.com/bugly-sdk-privacy-statement.pdf)
 
-- 穿山甲
+
+– 穿山甲
+
 使用目的：广告投放合作、广告归因、反作弊
 合作方式：广告投放合作
 代码包名：com.bykv.vk、com.ttshell、com.bytedance、com.ss.android.*
