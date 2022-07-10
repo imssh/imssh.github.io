@@ -32,6 +32,10 @@
 
 该功能旨在为用户提供软件设置参数的本地保存，分享功能。将使用存储权限。
 
+ 1.5 广告推送
+
+我们为您呈现广告，包括推送给您感兴趣的软件和产品等服务。为实现广告推送，我们基于您在使用核心功能和部分附加功能时所提供的信息，进行自动化分析。这些信息包括通过手机系统公用接口收集经过MD5算法加密的国际移动设备身份码（IMEI）和网络设备地址（设备MAC）、设备ID（DEVICEID）、IMSI、AndroidID、应用安装列表（软件安装列表）、当前运行应用进程、手机型号、手机系统版本号、上网类型、IP地址、运营商信息、设备运营商、屏幕分辨率、手机基站信息、手机WiFi信息、GPS位置、已安装应用列表（名称、版本、安装时间）。您可以通过系统设置，关闭手机设备身份码权限，关闭后，我们将只会向您展示统一的新闻资讯和广告。
+
 ### 2.我们的服务需要调用哪些权限
 
  2.1 电话权限：需要获取到您的设备身份，设备标识信息及安全保障因素使用，非必要权限。
@@ -40,7 +44,7 @@
 
  2.3 辅助功能权限：模拟点击核心权限，实现应用模拟点击功能，除此之外不会使用。
 
- 2.4 大致位置（基于网络）：统计软件错误及使用情况使用，以提供更好的用户体验，完善软件功能。
+ 2.4 位置权限：读取粗略位置信息和精确位置信息，用于统计软件错误及使用情况使用，以提供更好的用户体验，完善软件功能，优化广告服务。
 
  2.5 读取已安装包名列表（读取当前运行应用进程）：安全保障因素使用。
 
@@ -82,8 +86,28 @@
 代码包名：com.umeng、com.uc、com.efs
 收集个人信息类型：设备信息（IMEI/MAC/Android ID/IDFA/OpenUDID/GUID/IP地址/SIM 卡 IMSI 信息等）
 公司名称：北京锐讯灵通科技有限公司
-官网链接：[https://www.umeng.com/page/policy](https://www.umeng.com/page/policy)
+隐私政策：[https://www.umeng.com/page/policy](https://www.umeng.com/page/policy)
 
+– 腾讯Bugly（bugly.qq.com）
+使用目的：提供数据分析，应用升级服务
+代码包名：com.tencent.bugly
+收集个人信息类型：设备信息（IMEI/MAC/Android ID/IDFA/OpenUDID/GUID/IP地址/SIM 卡 IMSI 信息等）
+公司名称：深圳市腾讯计算机系统有限公司
+隐私政策：[https://static.bugly.qq.com/bugly-sdk-privacy-statement.pdf](https://static.bugly.qq.com/bugly-sdk-privacy-statement.pdf)
+
+- 穿山甲
+使用目的：广告投放合作、广告归因、反作弊
+合作方式：广告投放合作
+代码包名：com.bykv.vk、com.ttshell、com.bytedance、com.ss.android.*
+收集数据类型：
+【必要信息】
+设备信息：【Android】设备品牌、型号、软件系统版本相关信息等基础信息
+应用信息：开发者应用名、应用包名、版本号、应用安装列表等信息(软件安装列表/软件列表）
+其他信息：运营商信息、设备时区、设备语言
+【可选信息】
+无线网SSID名称、WiFi路由器MAC地址、设备MAC地址、IP地址、设备唯一标识符（设备硬件序列号，如IMEI、AndroidID、OAID、IMSI、ICCID、GAID、MEID，具体字段因软硬件版本不同而存在差异）、设备地理位置、手机重启时间、磁盘总空间、系统总内存空间、CPU数目、开发者应用名、应用包名、版本号、运营商信息、设备时区
+公司名称：北京巨量引擎网络技术有限公司
+隐私政策：[https://www.csjplatform.com/privacy/partner](https://www.csjplatform.com/privacy/partner)
 
 # 四.本政策的更新
 我们可能会不定期修改、更新本隐私政策。
@@ -98,7 +122,7 @@
 若您对本政策有任何问题，请通过邮箱联系：contactus@xundaoapp.com。
 本声明自更新之日起生效。
 
-最近更新日期：2022年1月1日
+最近更新日期：2022年7月1日
 
 北京寻到科技工作室
 
