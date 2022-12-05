@@ -104,6 +104,15 @@
 隐私政策：[https://static.bugly.qq.com/bugly-sdk-privacy-statement.pdf](https://static.bugly.qq.com/bugly-sdk-privacy-statement.pdf)
 
 
+– 微信授权登录，微信分享，微信支付
+
+使用目的：微信授权登录，微信分享，微信支付
+代码包名：com.tencent
+收集数据类型：查看WLAN链接；读取外置存储卡；读取手机状态和身份；写入外部存储卡， 读取手机状态和身份，写入外部存储卡。
+公司名称：深圳市腾讯计算机系统有限公司
+隐私政策：[https://www.wechat.com/zh_CN/privacy_policy.html](https://www.wechat.com/zh_CN/privacy_policy.html)
+
+
 – 穿山甲
 
 使用目的：广告投放合作、广告归因、反作弊
